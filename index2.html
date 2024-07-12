@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event registration form</title>
+</head>
+
+<body>
+    <h1>Event registration form</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="enter your name" required><br><br>
+        <label for="email" placeholder="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com" required><br><br>
+        <label for="ph" placeholder="Phone number">Phone no:</label>
+        <input type="tel" name="ph" id="ph" placeholder="enter your ph number" required><br><br>
+        <label for="ticketpreference">Ticket preference:</label>
+        <input type="radio" name="ticket" id="ticketreg">
+        <label for="ticketreg" name="ticketreg" id="ticketreg">Regular</label>
+        <input type="radio" name="ticket" id="ticketvip">
+        <label for="ticketvip" name="ticketvip" id="ticketvip">VIP</label><br><br>
+        <label for="food">Food:</label>
+        <input type="checkbox" name="food" id="breakfast">
+        <label for="breakfast">Breakfast</label>
+        <input type="checkbox" name="food" id="lunch">
+        <label for="lunch">Lunch</label>
+        <input type="checkbox" name="food" id="dinner">
+        <label for="dinner">Dinner</label>
+        <input type="checkbox" name="food" id="none">
+        <label for="none">None</label><br><br>
+        <label for="attendees">No of attendees:</label>
+        <select name="attendees" id="attendees" style="width: 50px;">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br><br>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date"><br><br>
+        <input type="reset">
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
